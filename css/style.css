@@ -254,6 +254,7 @@ input {
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .thumbnail-img {
@@ -334,6 +335,7 @@ input {
     overflow: hidden;
     align-content: space-around;
     max-width: 500px;
+    cursor: pointer;
 }
 
 .trend-thumbnail-img {
@@ -390,6 +392,7 @@ input {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
     max-height: 664px;
+    cursor: pointer;
 }
 
 .activity-dual {
