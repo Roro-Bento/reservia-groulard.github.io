@@ -677,7 +677,7 @@ footer {
 
 /* phone responsive */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 375px) {
     /* header */
     header {
         padding: 0;
@@ -744,6 +744,7 @@ footer {
     }
     .filters {
         flex-wrap: wrap;
+        row-gap: 10px;
     }
     .filter-child {
         padding: 0;
@@ -807,12 +808,12 @@ footer {
     }
     /* third section activity */
     .activity {
-        max-height: 175px;
         margin: 15px 0 15px 0;
+        flex-direction: column;
     }
     .activity-dual {
         flex-wrap: nowrap;
-        max-height: 410px;
+        max-height: 560px;
     }
     .card-60,
     .card-35,
@@ -826,7 +827,13 @@ footer {
     .card-50>.activity-img,
     .activity-img {
         object-fit: cover;
-        height: 70%;
+        width: 100%;
+    }
+    .responsive-img {
+        max-height: 175px;
+    }
+    .activity-info {
+        background-color: white;
     }
     /* footer */
     .footer {
